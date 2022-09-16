@@ -6,20 +6,18 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Example Jekyll site using GitLab Pages
-email: your-email@domain.com
+title: Sad Mask Party
+email: support@sadmask.Party
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/jekyll" # the subpath of your site, e.g. /blog
+  Abstract mysterious creative entity, with a unique outlook and understanding on human nature. I've made music and soundscapes for games, films, art exhibitions
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-gitlab_username:  pages
+twitter_username: sadmaskparty
+#github_username:  jekyll
+#gitlab_username:  pages
 
 # Outputting
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title-:year-:month-:day
 
 # Build settings
 markdown: kramdown
