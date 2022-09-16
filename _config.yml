@@ -11,7 +11,7 @@ email: support@sadmask.Party
 description: > # this means to ignore newlines until "baseurl:"
   Abstract mysterious creative entity, with a unique outlook and understanding on human nature. I've made music and soundscapes for games, films, art exhibitions
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+url: "https://new.sadmask.party/" # the base hostname & protocol for your site
 twitter_username: sadmaskparty
 #github_username:  jekyll
 #gitlab_username:  pages
