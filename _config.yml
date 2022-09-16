@@ -10,15 +10,22 @@ title: Sad Mask Party
 email: support@sadmask.Party
 description: > # this means to ignore newlines until "baseurl:"
   Abstract mysterious creative entity, with a unique outlook and understanding on human nature. I've made music and soundscapes for games, films, art exhibitions
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://new.sadmask.party/" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://new.sadmask.party" # the base hostname & protocol for your site
 twitter_username: sadmaskparty
 #github_username:  jekyll
 #gitlab_username:  pages
+blog: blog
 
 # Outputting
 permalink: /:categories/:title-:year-:month-:day
 
 # Build settings
 markdown: kramdown
-exclude: ["README.md"]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
